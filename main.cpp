@@ -181,7 +181,7 @@ int wczytajUzytkownikowZPliku(vector<Uzytkownik> &uzytkownicy)
         plikTekstowy.close();}
 
      else
-        cout<<"Nie mozna otwozyc pliku";
+        cout<<"Nie mozna otwozyc pliku"<<endl;
 
 
 }
@@ -740,7 +740,7 @@ int main()
 
         if(idZalogowanegoUzytkownika == 0)
         {
-            cout << "1.Rejestracja" << endl;
+            cout <<endl<< "1.Rejestracja" << endl;
             cout << "2.Logowanie" << endl;
             cout << "9.Zamknij program" << endl;
             cin >> wybor;
